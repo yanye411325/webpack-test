@@ -1,0 +1,14 @@
+body{
+  div{
+    border: 1px solid yellowgreen;
+    display: flex;
+    p{
+      color: red;
+      border: 1px solid grey;
+      border-radius: 5px;
+    }
+    span{
+      border: 1px solid #000;
+    }
+  }
+}

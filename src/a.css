@@ -1,0 +1,8 @@
+div{
+  height: 20px;
+  width: 100%;
+  background: yellow;
+}
+div:nth-of-type(odd){
+  background:pink;
+}
