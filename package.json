@@ -13,7 +13,9 @@
     "build": "webpack --config webpack.pro.config",
     "server": "webpack-dev-server",
     "build:dll": "cross-env NODE_ENV=development webpack --config ./webpack.dll.config.js",
-    "mpa": "webpack --watch --config ./webpack.mpa.config.js"
+    "mpa": "webpack --watch --config ./webpack.mpa.config.js",
+    "my": "webpack --config ./webpack.my.config.js",
+    "myp": "webpack --config ./webpack.myplugin.config.js"
   },
   "keywords": [],
   "author": "",
@@ -56,6 +58,7 @@
     "add-asset-html-webpack-plugin": "^3.1.3",
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "loader-utils": "^2.0.0",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
